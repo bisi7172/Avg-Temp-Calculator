@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Avg. Temperature</title>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+  </head>
+  <body>
+    <h2 id="heading">Average Tempearture Calculator</h2>
+    <div id="parentDiv">
+      <div id="mainDiv">
+        <form id="mainForm">
+          <p id="para">Input Temperature Below</p>
+          <label class="label" name="label"> Sunday </label>
+          <input type="number" class="input sunday" name="input" />
+          <br /><br />
+          <label class="label" name="label"> Monday </label>
+          <input type="number" class="input monday" name="input" />
+          <br /><br />
+
+          <label class="label" name="label"> Tuesday </label>
+          <input type="number" class="input tuesday" name="input" />
+          <br /><br />
+
+          <label class="label" name="label"> Wednesday </label>
+          <input type="number" class="input wednesday" name="input" />
+          <br /><br />
+
+          <label class="label" name="label"> Thrusday </label>
+          <input type="number" class="input thrusday" name="input" />
+          <br /><br />
+
+          <label class="label" name="label"> Friday </label>
+          <input type="number" class="input friday" name="input" />
+          <br /><br />
+
+          <label class="label" name="label"> Saturday </label>
+          <input type="number" class="input saturday" name="input" />
+        </form>
+      </div>
+
+      <div id="avgDiv">
+        <p id="outputDiv">Input Data</p>
+      </div>
+
+      <div id="chartContainer" ></div>
+
+    </div>
+
+    <div id="btnDiv">
+      <button id="reset" name="reset">Reset</button>
+
+      <button id="btn" name="btn">Calculate Avg. Temp.</button>
+    </div>
+
+    <script src="script.js"></script>
+
+
+    
+  </body>
+</html>
